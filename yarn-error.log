@@ -1,0 +1,47 @@
+Arguments: 
+  /opt/homebrew/Cellar/node/20.8.1/bin/node /opt/homebrew/bin/yarn add exoress
+
+PATH: 
+  /Users/surajyadav/.deta/bin:/Users/surajyadav/.deta/bin:/Users/surajyadav/opt/anaconda3/bin:/opt/homebrew/bin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Library/Apple/usr/bin:/Users/surajyadav/.deta/bin:/Users/surajyadav/opt/anaconda3/bin:/opt/homebrew/bin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/Users/surajyadav/Library/Android/sdk/emulator:/Users/surajyadav/Library/Android/sdk/platform-toolsexport:/Users/surajyadav/flutter/bin:/Users/surajyadav/Library/Android/sdk/emulator:/Users/surajyadav/Library/Android/sdk/platform-toolsexport:/Users/surajyadav/flutter/bin
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  20.8.1
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/exoress: Not found
+      at params.callback [as _callback] (/opt/homebrew/lib/node_modules/yarn/lib/cli.js:66138:18)
+      at self.callback (/opt/homebrew/lib/node_modules/yarn/lib/cli.js:140883:22)
+      at Request.emit (node:events:514:28)
+      at Request.<anonymous> (/opt/homebrew/lib/node_modules/yarn/lib/cli.js:141855:10)
+      at Request.emit (node:events:514:28)
+      at IncomingMessage.<anonymous> (/opt/homebrew/lib/node_modules/yarn/lib/cli.js:141777:12)
+      at Object.onceWrapper (node:events:628:28)
+      at IncomingMessage.emit (node:events:526:35)
+      at endReadableNT (node:internal/streams/readable:1408:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "name": "jenkins-integration-test",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
